@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import Navbar from './Navbar';
+// import Varibel from './Variabel';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Navbar />
+      <Varibel /> */}
+      <h2> Omiru Code</h2>
     </div>
   );
 }
+
+//function component
+// export default function navbar() {
+//   return <div>
+//     <h3>
+//       Muamar Zidan
+//     </h3>
+//   </div>;
+// }
+
+//class component
+// export default class navbar extends Component {
+//   render() {
+//     return <div></div>;
+//   }
+// }
+
+//conts/variabel/arrow function component
+// export const navbar = () => {
+//   return <div>
+//   <h2>
+//     Muamar Zidan
+//   </h2>
+//   </div>;
+// };
+
+
 
 export default App;
