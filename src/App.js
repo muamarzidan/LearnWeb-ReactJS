@@ -1,17 +1,37 @@
 import React from 'react';
-// import Navbar from './Navbar';
+import Navbar from './Navbar';
+// import './App.css';
+// import MyButton from './MyButton';
+// import Footer from './Footer'
 // import Varibel from './Variabel';
+import LifeCycle from './LifeCycle';
+
+
+// const Click = () => {
+//   return alert("Button Lu dah kepencet")
+// }
+
+// const foot = () => {
+//   return (
+//     <div>
+//       <marquee>Yoi Mamen</marquee>
+//     </div>
+
+//   )
+// }
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
-      <Varibel /> */}
-      <h2> Omiru Code</h2>
+    <Navbar />
+    <LifeCycle />
+    {/* <MyButton Click={Click}/> */}
+      {/* <h2> Omiru Code</h2> */}
+    {/* <Footer foot={foot} /> */}
     </div>
   );
-}
+};
 
 //function component
 // export default function navbar() {
